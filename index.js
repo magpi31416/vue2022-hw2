@@ -19,7 +19,7 @@ const app = createApp({
           window.location = 'products.html';
         }).catch((err) => {
           alert("帳號或密碼錯誤,請重新輸入")
-          window.location = 'login.html';
+          window.location = 'index.html';
           // console.log(err.data);
         });
       },

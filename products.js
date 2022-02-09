@@ -23,7 +23,7 @@ const app = createApp({
           this.getProducts();
         }).catch((err) => {
           console.dir(err);
-          window.location = 'login.html'; //重新回到登入畫面
+          window.location = 'index.html'; //重新回到登入畫面
         })
     },
 
